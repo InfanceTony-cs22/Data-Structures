@@ -1,0 +1,37 @@
+                                                                                                      ---------
+                                                                                                        ARRAY:
+                                                                                                       --------
+What are Arrays?
+----------------                                                                                                          
+An array is a data structure that stores a collection of elements, each identified by an index or a key. These elements must be of the same data type. Arrays are used to store and organize a fixed-size sequence of elements. They provide a way to store multiple values under a single variable name.
+
+How Arrays Work:
+-----------------
+Arrays work by allocating memory for a contiguous block of elements. Each element in the array is identified by its position or index, which starts at 0 for the first element. The elements are stored in consecutive memory locations, making it efficient to access them using their indices.
+EXAMPLE:
+---------
+  [10, 20, 30, 40, 50]
+In this array, there are five elements, and each element has a unique index:
+
+Index 0: 10
+Index 1: 20
+Index 2: 30
+Index 3: 40
+Index 4: 50
+
+------------------------------
+  Indexing Elements in Arrays:
+-------------------------------
+
+To access or manipulate elements in an array, you use the index associated with each element. Here's how indexing works:
+
+To access an element: You use the array name followed by square brackets containing the index of the element you want to access. For example, array[2] would access the element at index 2.
+
+To update an element: You use the same syntax as accessing, but on the left side of an assignment statement. For example, array[1] = 25 would change the value at index 1 to 25.
+
+Valid indices: Indices must be non-negative integers and typically range from 0 to the length of the array minus one.
+
+Out-of-bounds indexing: Attempting to access an element with an index outside the valid range can lead to errors, including segmentation faults in languages like C/C++. Therefore, it's crucial to ensure that your index is within bounds.
+
+  
+
