@@ -29,6 +29,44 @@ def merge_sorted_lists(list1, list2):
 
     return merged_list
 
+
+                                                     0R
+
+
+
+#USING FOR LOOP
+
+
+
+import array as arr
+
+def merge_sorted_arrays(array1, array2):
+    len1 = len(array1)
+    len2 = len(array2)
+    merged_array = arr.array('i', [0] * (len1 + len2))
+    i = j = k = 0
+
+    # Merge the two sorted arrays using for loops
+    for k in range(len1 + len2):
+        if i < len1 and (j >= len2 or array1[i] < array2[j]):
+            merged_array[k] = array1[i]
+            i += 1
+        else:
+            merged_array[k] = array2[j]
+            j += 1
+
+    return merged_array
+
+# Example usage:
+array1 = arr.array('i', [1, 3, 5])
+array2 = arr.array('i', [2, 4, 6])
+merged_result = merge_sorted_arrays(array1, array2)
+print(merged_result)  # Output will be: array('i', [1, 2, 3, 4, 5, 6])
+
+
+
+
+
 # Example usage:
 list1 = [1, 3, 5, 7]
 list2 = [2, 4, 6, 8]
