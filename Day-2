@@ -1,0 +1,78 @@
+LINKED LIST
+-------------
+--------------
+
+What are Linked Lists?
+----------------------
+
+A linked list is a linear data structure used to store a collection of elements called nodes. Unlike arrays, linked lists do not store elements in contiguous memory locations. Instead, they consist of a chain of nodes, where each node holds a value (or data) and a reference (or link) to the next node in the sequence.
+
+Key Concepts
+-------------
+
+Here are some key concepts associated with linked lists:
+
+Node:
+-------
+A node is the basic building block of a linked list. It contains two parts:
+
+Data:
+------
+The actual value or information that the node holds.
+Next (or Link): A reference (or pointer) to the next node in the list. In a singly linked list, this points to the next node; in a doubly linked list, it points to both the next and previous nodes.
+Head: The head is the first node in the linked list. It serves as the starting point for accessing the list's elements.
+
+Tail:
+------
+The tail is the last node in the linked list. In some implementations, it can optimize certain operations like appending elements to the list.
+
+Types of Linked Lists:
+-----------------------
+
+There are several types of linked lists, including:
+
+Singly Linked List:
+-------------------
+In a singly linked list, each node has a data element and a reference to the next node. It forms a unidirectional chain of nodes.
+
+Doubly Linked List:
+--------------------
+In a doubly linked list, each node has a data element and references to both the next and previous nodes. It allows for bidirectional traversal.
+
+Circular Linked List:
+---------------------
+A circular linked list is a variation where the last node points back to the first node, creating a loop.
+
+Advantages of Linked Lists:
+--------------------------
+
+Dynamic Size: 
+---------------
+Linked lists can dynamically grow or shrink in size, making them flexible.
+Insertion and Deletion: Inserting or deleting nodes can be more efficient in linked lists than in arrays because it involves adjusting references rather than shifting elements.
+No Fixed Memory Allocation: Linked lists do not require contiguous memory allocation.
+
+Disadvantages of Linked Lists:
+-----------------------------
+
+Random Access: 
+----------------
+Unlike arrays, linked lists do not support direct access to elements by index. Traversal from the head is required.
+
+Extra Memory: 
+-------------
+Each node in a linked list requires extra memory to store the reference, which can be less memory-efficient than arrays for small elements.
+
+
+
+Example of a Singly Linked List:
+--------------------------------
+
+Head -> [10] -> [20] -> [30] -> [40] -> None
+In this example, the head points to the first node with data 10, and each node has a link to the next node. The last node has a link of None, indicating the end of the list.
+
+Linked lists are fundamental data structures in computer science and are widely used in many applications, including implementing dynamic data structures like stacks, queues, and more. Understanding linked lists is a crucial step in mastering data structures.
+
+
+
+
