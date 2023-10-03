@@ -1,0 +1,80 @@
+Introduction to Stacks:
+
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, which means that the last element added to the stack is the first one to be removed. Imagine a stack of books; you can only remove the top book and add new ones to the top. Here are some key properties of stacks:
+
+Last-In-First-Out (LIFO): The most fundamental property of a stack is that the last element added is the first to be removed.
+
+Operations: Stacks support three primary operations:
+
+Push: Adding an element to the top of the stack.
+Pop: Removing the top element from the stack.
+Peek (or Top): Viewing the top element without removing it.
+Stack Operations:
+
+Push Operation:
+
+The push operation is used to add an element to the top of the stack.
+It involves placing the new element on top of the existing elements.
+The time complexity of the push operation is typically O(1) because it takes a constant amount of time to add an element to the top of the stack, regardless of the stack's size.
+Pop Operation:
+
+The pop operation is used to remove the top element from the stack.
+After the pop operation, the next element in the stack becomes the new top.
+The time complexity of the pop operation is also typically O(1) because it takes constant time to remove the top element.
+Peek (Top) Operation:
+
+The peek operation allows you to view the top element without removing it.
+It's useful when you want to check the value of the element on top of the stack without altering the stack's contents.
+The time complexity of the peek operation is O(1) because it involves accessing the top element directly.
+
+Example:
+
+Stack: 10 (top) <- 20 <- 30
+
+If you perform a push operation with the value 40, it becomes the new top element.
+If you then perform a pop operation, 40 is removed, and 30 becomes the new top.
+Stacks are widely used in various computer science and programming applications, including function call management in programming languages, parsing expressions, and solving problems like checking for balanced parentheses. Understanding stack operations and the LIFO principle is crucial for many algorithms and data structures.
+
+Introduction to Queues:
+
+A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle, which means that the first element added to the queue is the first one to be removed. Think of it as a line of people waiting for a service; the person who arrives first is served first. Here are some key properties of queues:
+
+First-In-First-Out (FIFO): The fundamental property of a queue is that the first element added is the first one to be removed.
+
+Operations: Queues support two primary operations:
+
+Enqueue: Adding an element to the back (rear) of the queue.
+Dequeue: Removing the element from the front of the queue.
+Queue Operations:
+
+Enqueue Operation:
+
+The enqueue operation is used to add an element to the back (rear) of the queue.
+It involves placing the new element at the end of the existing elements.
+The time complexity of the enqueue operation is typically O(1) because it takes a constant amount of time to add an element to the rear of the queue, regardless of the queue's size.
+Dequeue Operation:
+
+The dequeue operation is used to remove the element from the front of the queue.
+After the dequeue operation, the next element in the queue becomes the new front.
+The time complexity of the dequeue operation is also typically O(1) because it takes constant time to remove the front element.
+
+Example:
+
+Queue: 10 (front) <- 20 <- 30 (rear)
+
+Applications:
+
+Queues are widely used in computer science and programming for various purposes, including:
+
+Managing tasks in a print spooler (the first document to be printed is the first one to be removed).
+Implementing breadth-first search (BFS) in graph traversal.
+Handling requests in web servers (requests are processed in the order they are received).
+Understanding queue operations and the FIFO principle is essential for many algorithms and data structures, particularly in scenarios that involve scheduling and order-sensitive processing.
+
+Stack and Queue Implementations:
+
+Implement a stack and a queue in your programming language of choice (e.g., Python, Java).
+Write code for the basic operations of both data structures.
+
+
+
