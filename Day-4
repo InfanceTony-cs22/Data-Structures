@@ -1,0 +1,65 @@
+Introduction to Binary Trees and Types of Binary Trees:
+
+What is a Binary Tree?
+
+A binary tree is a hierarchical data structure consisting of nodes connected by edges. Each node has at most two children: a left child and a right child.
+The top node of the tree is called the root, and nodes with no children are called leaves.
+
+
+Basic Properties:
+
+Nodes: In a binary tree, each node can have zero, one, or two children.
+Parent-Child Relationships: Nodes in a binary tree have parent-child relationships. A node's immediate children are its left and right children.
+Levels: The root node is at level 0, and the level increases as you move down the tree. Nodes at the same level are at the same distance from the root.
+
+
+Types of Binary Trees:
+
+Full Binary Trees:
+
+In a full binary tree, every node has either 0 or 2 children.
+All levels of the tree are completely filled except possibly for the last level, which is filled from left to right.
+Complete Binary Trees:
+
+In a complete binary tree, all levels are completely filled except possibly for the last level.
+In the last level, all nodes are as left as possible.
+Balanced Binary Trees:
+
+Balanced binary trees have relatively evenly distributed nodes, ensuring that the tree remains balanced.
+These trees maintain a balanced structure to optimize operations like searching and insertion.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Introduction to Binary Search Trees (BSTs) and BST Operations:
+
+
+Binary Search Trees (BSTs):
+A binary search tree is a binary tree with the additional property that the left child of a node contains values less than or equal to the node's value, and the right child contains values greater than the node's value.
+This property allows for efficient searching and sorting.
+BST Operations:
+
+Common BST Operations:
+
+Insertion: Adding a new node while maintaining the BST property.
+Searching: Finding a specific value in the BST efficiently.
+Deletion: Removing a node while maintaining the BST property.
+Maintaining the BST Property:
+
+When performing operations on a BST, it's crucial to ensure that the tree remains a valid binary search tree. This involves rearranging nodes as needed to satisfy the property.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Balanced Binary Search Trees (e.g., AVL Trees):
+
+Balanced Binary Search Trees:
+
+Balanced binary search trees, like AVL trees, are self-balancing binary trees designed to maintain balance even after insertion and deletion operations.
+This balance ensures that search, insertion, and deletion operations have relatively consistent time complexities.
+AVL Trees:
+
+AVL trees are a specific type of balanced binary search tree.
+They use rotations to ensure that the height of the left and right subtrees of any node differs by at most 1.
+Understanding binary trees, binary search trees, and balanced binary search trees is crucial for efficient data organization and retrieval in various applications, including databases, sorting algorithms, and more. If you have any specific questions or need further clarification on any of these topics, feel free to ask!
+
+
+
+
+
